@@ -219,7 +219,7 @@ function clickBtn1(){
 
     var no_4_max=Math.floor((no_4-max)/100)*100;
     var ah_22=Math.floor(no_4_max*2.2/7.8);
-    var end=no_4_max+ah_22;
+    var end=Math.floor((no_4_max+ah_22)/100)*100;
 
     //表示
     var result4 = document.getElementById('4');
